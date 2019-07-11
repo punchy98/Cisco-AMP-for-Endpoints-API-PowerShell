@@ -2,4 +2,5 @@
 Query AMP for Endpoints using PowerShell along with the Export-Excel module
 
 Base64 encode the Client ID and API key:
-                      clientid:apikey
+
+                        clientid:apikey
