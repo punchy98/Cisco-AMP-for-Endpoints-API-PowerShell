@@ -1,4 +1,5 @@
 #grabs and searches for hostname or part of host name ie Michael_PC or Mic
+#can also just use https://api.amp.cisco.com/v1/computers for all hosts
 $hostname = Read-Host -Prompt 'Hostname' 
 $endpointUri = 'https://api.amp.cisco.com/v1/computers?hostname[]='+$hostname
 
